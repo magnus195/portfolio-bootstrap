@@ -1,0 +1,96 @@
+._100vh {
+    min-height: 100vh;
+}
+
+#intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/34153/pexels-photo.jpg") center center no-repeat;
+}
+
+#intro .row .col-12 {
+    color: floralwhite;
+    text-align: center;
+}
+
+#intro .row .col-12 h1 {
+    font-size: calc(300% + 1vw + 1vh);
+}
+
+#skills {
+    background-color: #1b1b1b;
+}
+
+#skills .card-title {
+    text-align: center;
+}
+
+#projects {
+    background-color: #1b1b1b;
+}
+
+#contact {
+    background-color: #1b1b1b;
+}
+
+#scroll-down-prompt {
+    height: 10vh;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+#contact-info {
+    text-align: center;
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    #contact-info h2 {
+        font-size: 24px;
+    }
+}
+
+#social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.page-title {
+    font-size: calc(500% + 1vw + 1vh);
+    text-align: center;
+    color: floralwhite;
+}
+
+@media (max-width: 1200px) {
+    .page-title {
+        font-size: calc(200% + 1vw + 1vh);
+    }
+}
+
+.social-button {
+    background-color: floralwhite;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.social-button i {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .social-button {
+        height: 70px;
+        width: 70px;
+        font-size: 50px;
+    }
+}
+
+.list-centered {
+    text-align: center;
+}
